@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Blinkit Clone</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    </head>
+    <body>
+        
+
+        <!-- NAVBAR -->
+
+<header class="navbar">
+
+    <div class="logo">
+
+        blinkit
+
+    </div>
+
+    <div class="delivery">
+
+        <h4>Delivery in 10 minutes</h4>
+
+        <p>Hyderabad, Telangana</p>
+
+    </div>
+
+    <div class="search-box">
+
+        <i class="fa-solid fa-magnifying-glass"></i>
+
+        <input type="text" id="search-input" placeholder="Search for products">
+
+    </div>
+
+    <a href="login.html" class="login-btn">
+
+    Login
+
+</a>
+
+    <button class="cart-btn-nav">
+
+        My Cart
+
+    </button>
+
+</header>
+
+<section class="container">
+
+<!--offer slider-->
+
+<section class="offer-slider">
+
+    <div class="slides">
+
+        <div class="slide active">
+
+            <img src="50%off.jpeg">
+
+            <div class="offer-content">
+
+                <h1>50% OFF</h1>
+
+                <p>On Fresh Fruits & Vegetables</p>
+
+            </div>
+
+        </div>
+
+        <div class="slide">
+
+            <img src="frreedel.jpeg">
+
+            <div class="offer-content">
+
+                <h1>Free Delivery</h1>
+
+                <p>Above ₹199 Orders</p>
+
+            </div>
+
+        </div>
+
+        <div class="slide">
+
+            <img src="snacksfes.jpeg">
+
+            <div class="offer-content">
+
+                <h1>Snacks Festival</h1>
+
+                <p>Buy 1 Get 1 Free</p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- MAIN CONTAINER -->
+
+<section class="hero-banner">
+
+    <div class="hero-content">
+
+        <h1>Groceries Delivered in 10 Minutes</h1>
+
+        <p>
+            Fresh fruits, vegetables, snacks and daily essentials.
+        </p>
+
+        <button>Shop Now</button>
+
+    </div>
+
+</section>
+
+    <!-- SMALL BANNERS -->
+
+    <section class="small-banners">
+
+    <div class="offer-card fruits">
+        <h3>Fresh Fruits</h3>
+        <p>Up to 30% OFF</p>
+        <button>Shop Now</button>
+    </div>
+
+    <div class="offer-card drinks">
+        <h3>Cold Drinks</h3>
+        <p>Buy 1 Get 1</p>
+        <button>Order Now</button>
+    </div>
+
+    <div class="offer-card snacks">
+        <h3>Snacks & Chips</h3>
+        <p>Starting ₹10</p>
+        <button>Explore</button>
+    </div>
+
+</section>
+
+    <!-- CATEGORIES -->
+
+    <section class="categories">
+
+        <div class="category">
+
+            <img src="fruit basket.webp">
+
+            <p>Fruits</p>
+
+        </div>
+
+        <div class="category">
+
+            <img src="chips.jpg">
+
+            <p>Snacks</p>
+
+        </div>
+
+        <div class="category">
+
+            <img src="drinks.jpg">
+
+            <p>Drinks</p>
+
+        </div>
+
+        <div class="category">
+
+            <img src="diary prod.webp">
+
+            <p>Dairy</p>
+
+        </div>
+
+        <div class="category">
+
+            <img src="snacks.webp">
+
+            <p>Bakery</p>
+
+        </div>
+
+    </section>
+
+    <!-- PRODUCTS -->
+
+    <section class="products-section">
+
+        <div class="section-header">
+
+            <h2>Best Sellers</h2>
+
+            <a href="#">See All</a>
+
+        </div>
+
+        <div class="product-container">
+
+            <!-- PRODUCT -->
+
+            <div class="product-card">
+
+                <img src="bananas.webp">
+
+                <div class="timer">
+
+                    ⏱ 10 mins
+
+                </div>
+
+                <h3>Fresh Bananas</h3>
+
+                <p class="weight">1 kg</p>
+
+                <div class="product-bottom">
+
+                    <span class="price">₹45</span>
+
+                    <button class="add-btn">
+
+                        ADD
+
+                    </button>
+
+                </div>
+
+            </div>
+
+            <!-- PRODUCT -->
+
+            <div class="product-card">
+
+                <img src="apples.webp">
+
+                <div class="timer">
+
+                    ⏱ 10 mins
+
+                </div>
+
+                <h3>Fresh Apples</h3>
+
+                <p class="weight">1 kg</p>
+
+                <div class="product-bottom">
+
+                    <span class="price">₹120</span>
+
+                    <button class="add-btn">
+
+                        ADD
+
+                    </button>
+
+                </div>
+
+            </div>
+
+            <!-- PRODUCT -->
+
+            <div class="product-card">
+
+                <img src="chips.jpg">
+
+                <div class="timer">
+
+                    ⏱ 10 mins
+
+                </div>
+
+                <h3>Potato Chips</h3>
+
+                <p class="weight">100 g</p>
+
+                <div class="product-bottom">
+
+                    <span class="price">₹20</span>
+
+                    <button class="add-btn">
+
+                        ADD
+
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- STICKY CART -->
+
+<div class="sticky-cart">
+
+    <div>
+
+        <h3>1 item added</h3>
+
+        <p>₹45</p>
+
+    </div>
+
+    <button>
+
+        View Cart
+
+    </button>
+
+</div>
+
+</div>
+ 
+<!--cart-sidebar-->
+<div class="cart-sidebar">
+
+    <div class="cart-header">
+
+        <h2>My Cart</h2>
+
+        <i class="fa-solid fa-xmark close-cart"></i>
+
+    </div>
+
+    <div class="cart-items">
+
+    </div>
+
+    <div class="cart-footer">
+
+        <h3>Total: ₹0</h3>
+
+        <button onclick="window.location.href='checkout.html'">Proceed To Pay</button>
+
+    </div>
+
+</div>
+
+<!-- PRODUCT MODAL -->
+
+<div class="product-modal">
+
+    <div class="modal-content">
+
+        <!-- CLOSE -->
+
+        <i class="fa-solid fa-xmark close-modal"></i>
+
+        <!-- IMAGE -->
+
+        <img src="snacks.webp" class="modal-img">
+
+        <!-- DETAILS -->
+
+        <h2 class="modal-title"></h2>
+
+        <p class="modal-weight"></p>
+
+        <h3 class="modal-price"></h3>
+
+        <p class="modal-desc">
+
+            Fresh grocery product delivered instantly at your doorstep.
+
+        </p>
+
+        <button class="buy-now">
+
+            Buy Now
+
+        </button>
+
+    </div>
+
+</div>
+
+<section class="stats">
+
+    <div class="stat-box">
+        <h2>10M+</h2>
+        <p>Customers</p>
+    </div>
+
+    <div class="stat-box">
+        <h2>5000+</h2>
+        <p>Products</p>
+    </div>
+
+    <div class="stat-box">
+        <h2>25+</h2>
+        <p>Cities</p>
+    </div>
+
+    <div class="stat-box">
+        <h2>10 Min</h2>
+        <p>Delivery</p>
+    </div>
+
+</section>
+
+
+<!-- REVIEWS SECTION -->
+
+<section class="reviews-section">
+
+    <h2 class="section-title">
+
+        Customer Reviews
+
+    </h2>
+
+    <div class="reviews-container">
+
+        <!-- REVIEW 1 -->
+
+        <div class="review-card">
+
+            <img src="">
+
+            <h3>Rahul</h3>
+
+            <!-- STARS -->
+
+            <div class="stars">
+
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+
+            </div>
+
+            <p>
+
+                Amazing delivery service. Products were fresh
+                and delivered within minutes.
+
+            </p>
+
+        </div>
+
+        <!-- REVIEW 2 -->
+
+        <div class="review-card">
+
+            <img src="">
+
+            <h3>micheal</h3>
+
+            <div class="stars">
+
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+
+            </div>
+
+            <p>
+
+                User interface looks beautiful and ordering
+                experience is very smooth.
+
+            </p>
+
+        </div>
+
+        <!-- REVIEW 3 -->
+
+        <div class="review-card">
+
+            <img src="">
+
+            <h3>kernal</h3>
+
+            <div class="stars">
+
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+
+            </div>
+
+            <p>
+
+                Best Blinkit clone project. Clean design
+                and excellent functionality.
+
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- FOOTER -->
+
+<footer class="footer">
+
+    <div class="footer-container">
+
+        <!-- LOGO -->
+
+        <div class="footer-box">
+
+            <h2>Blinkit</h2>
+
+            <p>
+
+                India's last minute app delivering groceries,
+                snacks, beverages and daily essentials instantly.
+
+            </p>
+
+        </div>
+
+        <!-- LINKS -->
+
+        <div class="footer-box">
+
+            <h3>Useful Links</h3>
+
+            <a href="#">Home</a>
+            <a href="#">Products</a>
+            <a href="#">Categories</a>
+            <a href="#">Cart</a>
+
+        </div>
+
+        <!-- HELP -->
+
+        <div class="footer-box">
+
+            <h3>Help</h3>
+
+            <a href="#">FAQs</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Support</a>
+
+        </div>
+
+        <!-- CONTACT -->
+
+        <div class="footer-box">
+
+            <h3>Contact</h3>
+
+            <p>Email: support@blinkit.com</p>
+
+            <p>Phone: +91 9876543210</p>
+
+            <!-- SOCIAL -->
+
+            <div class="social-icons">
+
+                <i class="fa-brands fa-facebook-f"></i>
+
+                <i class="fa-brands fa-instagram"></i>
+
+                <i class="fa-brands fa-twitter"></i>
+
+                <i class="fa-brands fa-linkedin-in"></i>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- BOTTOM -->
+
+    <div class="footer-bottom">
+
+        © 2025 Blinkit Clone. All Rights Reserved.
+
+    </div>
+
+</footer>
+
+<script src="script.js"></script>
+</section>
+    </body>
+</html>
